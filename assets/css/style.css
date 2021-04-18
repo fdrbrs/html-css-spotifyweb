@@ -9,6 +9,8 @@
     height: 100vh;
     background-color: violet;
     color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 
 main{
@@ -27,6 +29,7 @@ nav{
     width: 230px;
     height: 100%;
     background-color: #000000;
+    color: #A3A3A3
 }
 
 #content{
@@ -41,4 +44,110 @@ nav{
 footer{
     height: 90px;
     background-color: #282828;
+}
+
+/* Nav Bar */
+
+/* Nav Bar Logo */
+#logo>img{
+    width: 130px;
+    padding: 20px 0 0 20px;
+}
+
+/* Nav Bar Buttons */
+#nav_buttons>ul>li>a>img{
+    width: 20px;
+    filter: brightness(70%);
+}
+
+#nav_buttons>ul>li>a{
+    color: #A3A3A3;
+}
+
+#nav_buttons>ul>li {
+    padding-bottom: 5px;
+}
+
+#nav_buttons {
+    padding: 30px 0 0 20px;
+}
+
+#nav_buttons>ul {
+    list-style: none;
+}
+
+/* Nav Bar Playlist*/
+#playlist{
+    padding: 0 0 0 20px;
+    height: 725px;
+    padding-top: 10px;
+}
+
+#playlist_title {
+    color: white;
+    font-weight: 600;
+}
+
+#plus_button {
+    height: 37px;
+    width: 37px;
+    background-color: #A3A3A3;
+    color: #141922;
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 37px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 15px 0 20px 0;
+}
+
+#playlist_names>ul{
+    list-style: none;
+}
+
+#playlist_names>ul>li{
+    padding-bottom: 20px;
+}
+#playlist_names>ul>li>a{
+    color: #A3A3A3;
+}
+
+/* Installa App */
+
+#install_app{
+    padding: 0 0 10px 17px;
+}
+
+#install_app>a>img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+#install_app>a{
+    color: #A3A3A3;
+}
+
+/* Divider */
+
+#nav_divider {
+    width: 190px;
+    margin: auto;
+    border-bottom: 1px solid #A3A3A3;
+}
+
+/* User */
+
+#user{
+    padding: 10px 0 0 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+#user>img{
+    width: 30px;
+    height: 30px;
+    background-color: #A3A3A3;
+    border-radius: 50%;
+    margin-right: 10px;
 }
