@@ -29,7 +29,8 @@ nav{
     width: 230px;
     height: 100%;
     background-color: #000000;
-    color: #A3A3A3
+    color: #A3A3A3;
+    position: relative;
 }
 
 #content{
@@ -44,6 +45,8 @@ nav{
 footer{
     height: 90px;
     background-color: #282828;
+    display: flex;
+    align-items: center;
 }
 
 /* Nav Bar */
@@ -79,8 +82,9 @@ footer{
 /* Nav Bar Playlist*/
 #playlist{
     padding: 0 0 0 20px;
-    height: 725px;
+    max-height: 725px;
     padding-top: 10px;
+    overflow: auto;
 }
 
 #playlist_title {
@@ -131,14 +135,14 @@ footer{
 
 #nav_divider {
     width: 190px;
-    margin: auto;
+    margin-left: 20px;
     border-bottom: 1px solid #A3A3A3;
 }
 
 /* User */
 
 #user{
-    padding: 10px 0 0 20px;
+    padding: 10px 0 10px 20px;
     color: white;
     font-weight: 700;
     font-size: 1.1rem;
@@ -150,4 +154,37 @@ footer{
     background-color: #A3A3A3;
     border-radius: 50%;
     margin-right: 10px;
+}
+
+#nav_foot{
+    position: fixed;
+    z-index: 1;
+    bottom: 90px;
+    left: 0;
+    background-color: #000000;
+}
+
+/* Footer */
+
+#play_left {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+#play_img>img{
+    width: 60px;
+    margin: 0 10px 0 10px
+}
+
+#song_name{
+    display: flex;
+    color: #A3A3A3;
+    font-size: 0.8rem;
+}
+
+#save {
+    display: flex;
+    color: #A3A3A3;
 }
