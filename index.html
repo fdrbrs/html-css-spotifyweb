@@ -21,7 +21,7 @@
                 </div>
                 <div id="nav_buttons">
                     <ul>
-                        <li><a href=""><img src="./assets/img/home.svg" alt=""> Home </a></li>
+                        <li id="home_button"><a href=""><img src="./assets/img/home.svg" alt=""> Home </a></li>
                         <li><a href=""><img src="./assets/img/search.svg" alt=""> Cerca</a></li>
                         <li><a href=""><img src="./assets/img/libreria.svg" alt=""> La tua libreria</a></li>
                     </ul>
@@ -63,23 +63,50 @@
 
         <footer> 
             <div id="play_left">
-                <div id="play_img">
-                    <img src="./assets/img/sinister.jpeg" alt="">
-                </div>
-                <div id="play_song">
-                    <div id="artist">Sinister</div>
-                    <div id="song_name">
-                        <div id="brano">Brano</div>
-                        <div id="nome">Nome</div>
+                <div id="play_now">
+                    <div id="play_img">
+                        <img src="./assets/img/sinister.jpeg" alt="">
+                    </div>
+                    <div id="play_song">
+                        <div id="artist">Sinister</div>
+                        <div id="song_name">
+                            <div id="brano">Brano</div>
+                            <div id="nome">Nome</div>
+                        </div>
                     </div>
                 </div>
                 <div id="save">
                     <div id="heart"><i class="far fa-heart    "></i></div>
                     <div id="folder"><i class="far fa-folder    "></i></div>
                 </div>
+
             </div>
-            <div id="play_middle"></div>
-            <div id="play_right"></div>
+            <div id="play_middle">
+                <div id="top_middle">
+                    <div class="foot_btn"><i class="fas fa-random    "></i></div>
+                    <div class="foot_btn"><i class="fas fa-step-backward    "></i></div>
+                    <div class="foot_btn" id="btn_big"><i class="far fa-play-circle"></i></div>
+                    <div class="foot_btn"><i class="fas fa-step-forward    "></i></div>
+                    <div class="foot_btn"><i class="fas fa-redo    "></i></div>
+                </div>
+                <div id="bottom_middle">
+                    <div id="time_left" class="time">0:25</div>
+                    <div id="time_bar">
+                        <div id="time_bar_left"></div>
+                        <div id="time_bar_right"></div>
+                    </div>
+                    <div id="time_right" class="time">4:35</div>
+                </div>
+            </div>
+            <div id="play_right">
+                <div class="right_btn"><i class="fas fa-list-ul"></i></div>
+                <div class="right_btn"><i class="fas fa-desktop"></i></div>
+                <div class="right_btn"><i class="fas fa-volume-up"></i></div>
+                <div id="volume_bar">
+                    <div id="volume_bar_left"></div>
+                    <div id="volume_bar_right"></div>
+                </div>
+            </div>
         </footer>
     </div>
     
