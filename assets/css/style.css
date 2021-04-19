@@ -238,6 +238,7 @@ footer{
     width: 100%;
     display: flex;
     justify-content: start;
+    margin-top: 2rem;
 }
 
 .unit {
