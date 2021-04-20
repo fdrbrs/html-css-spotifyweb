@@ -198,6 +198,7 @@ footer{
     list-style: none;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #music_nav>ul>li{
@@ -240,6 +241,7 @@ footer{
     display: flex;
     justify-content: start;
     margin-top: 2rem;
+    flex-wrap: wrap;
 }
 
 .unit {
@@ -249,6 +251,7 @@ footer{
     flex-direction: column;
     align-items: center;
 }
+
 
 .unit>.unit_card>img{
     width: 100%;
@@ -538,3 +541,22 @@ footer{
 #volume_bar:hover #volume_control{
     opacity: 1;
 }
+
+/* Media Queries */
+
+@media screen and  (max-width: 575px){   }
+@media screen and (min-width: 576px) and (max-width: 767px){   }
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .unit {
+        width: calc((100% / 4) - 30px);
+        margin: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #time_bar{
+        width: 245px;
+    }
+   }
