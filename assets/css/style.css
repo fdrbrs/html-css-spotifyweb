@@ -247,7 +247,7 @@ footer{
     background-color: #080B12;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 #upgrade_btn {
