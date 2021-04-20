@@ -31,6 +31,8 @@ main::after{
     background-color: #000000;
     color: #A3A3A3;
     position: relative;
+    overflow-y: auto;
+    min-height: 500px;
 }
 
 
@@ -92,7 +94,7 @@ footer{
     /* Nav Bar Playlist*/
 #playlist{
     padding: 0 0 0 20px;
-    height: 68%;
+    height: calc(100% - 300px);
     padding-top: 10px;
     overflow-y: auto;
     margin-bottom: auto;
