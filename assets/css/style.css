@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-} 
+}
  
 #wrapper {
     width: 100%;
@@ -92,9 +92,10 @@ footer{
     /* Nav Bar Playlist*/
 #playlist{
     padding: 0 0 0 20px;
-    max-height: 80%;
+    height: 68%;
     padding-top: 10px;
     overflow-y: auto;
+    margin-bottom: auto;
 }
 
 #playlist_title {
@@ -171,10 +172,7 @@ footer{
 }
 
 #nav_foot{
-    position: fixed;
-    z-index: 1;
-    bottom: 90px;
-    left: 0;
+    position: relative;
     background-color: #000000;
 }
 
