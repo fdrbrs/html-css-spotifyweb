@@ -172,6 +172,8 @@ footer{
     color: #A3A3A3;
 }
 
+
+
     /* Divider */
 
 #nav_divider {
@@ -189,6 +191,8 @@ footer{
     font-size: 1.1rem;
 }
 
+
+
 #user>img{
     width: 30px;
     height: 30px;
@@ -203,6 +207,12 @@ footer{
     bottom: 90px;
     left: 0;
     background-color: #000000;
+}
+
+/* Nav Bar Small */
+
+#download_xs>img {
+    width: 20px;
 }
 
 /**** Content ****/
